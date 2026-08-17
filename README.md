@@ -4,6 +4,10 @@ This project is done to learn about how ETL pipelines work in distributed system
 
 Any suggestions are welcome!
 
+## Goals achieved
+
+- Use `uv` to manage python deps
+
 ## To do
 
 - Run a dummy airflow script to test it's working

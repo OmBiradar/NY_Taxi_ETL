@@ -1,0 +1,7 @@
+[project]
+name = "ny-taxi-etl"
+version = "0.1.0"
+description = "ETC pipeline to process NY taxi data"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
