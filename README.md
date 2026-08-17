@@ -1,13 +1,16 @@
 # ETL pipeline on New York Taxi Data
 
-I am doing this project to learn about how ETL pipelines work. Any suggestions are welcome!
+This project is done to learn about how ETL pipelines work in distributed systems.
 
-## Current plans
+Any suggestions are welcome!
 
-- Use Apache Airflow to injest data into a single MinIO instance. MinIO is similar to S3 bucket and can be run locally.
+## To do
+
+- Run a dummy airflow script to test it's working
 
 ## Future plans
 
+- Have airflow manage the whole pipline of pulling one months data at a time.
 - Have PySpark to process the data and store it in a data warehouse.
 - Use postgres for the datawarehouse.
 - Use real-time streaming to inject, process and store data.
